@@ -1,0 +1,28 @@
+{
+  "name": "dress-shop",
+  "version": "1.0.0",
+  "description": "A full stack e-commerce website for clothing store.",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrussumbrella/dress-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrussumbrella/dress-shop/issues"
+  },
+  "homepage": "https://github.com/jrussumbrella/dress-shop#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "dependencies": {
+    "google-auth-library": "^6.0.5"
+  }
+}
